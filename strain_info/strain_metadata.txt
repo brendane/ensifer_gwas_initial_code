@@ -1,0 +1,154 @@
+Strain_ID	Seq_ID	GWAS_ID	Seq_method	Sino_species	Host	Host_simple	Country	Lat	Long	Source	Date.Collected	Month	Year	Synonyms	Comments
+2119	2119	2119	illumina_2	S. meliloti				NA	NA				2011		USDA 6489, S. meliloti 2011
+3011	3011	3011	illumina_2	S. meliloti			South Africa	NA	NA	Australia			NA		R. meliloti, RF4, Australia: HENRI JANSEN et al 1982 says from Republic South Africa 1959 (australian authors)
+3085	3085	3085	illumina_2	S. meliloti			Australia	NA	NA	Australia			NA		R. meliloti, WSM 486, Australia--did not find references to this id
+USDA1005	USDA1005	1005	illumina_2	S. meliloti	Medicago sativa	M. sativa	USA	NA	NA	U. Wisconsin	1927		1927	3DOa5, No. 192F5	GH test 1946, 2/13/1984 GH test  Effective for M. sativa and M. alba, Hup -
+USDA1006	USDA1006	1006	illumina_2	S. meliloti	Medicago sativa	M. sativa	USA	NA	NA	Caledonia, Minn.	Aug. 1932	Aug	1932	3DOa6, No. 102F6	GH test Dec. 1946, 2/13/1984GH test  Effective for M. sativa and M. alba, Hup - (Also noted source as Maryland, 1933)
+USDA1007	USDA1007	1007	illumina_2	S. meliloti	Medicago sativa	M. sativa	USA	NA	NA	Minnesota	1932		1932	3DOa7	 2/13/1984 GH test  Effective for M. sativa and M. alba, Hup -
+USDA1008	USDA1008	1008	illumina_2	S. meliloti	Medicago sativa	M. sativa	USA	NA	NA	Maryland	1933		1933	3DOa8	 2/13/1984 GH test  Effective for M. sativa and M. alba, Hup -
+USDA1018	USDA1018	1018	illumina_2	S. meliloti	Medicago sativa	M. sativa	USA	NA	NA	California	1940		1940	3DOa18	GH test 2/13/1994 noneffective with M. sativa and M. alba.
+USDA1022	USDA1022	1022	illumina_2	S. meliloti	Medicago sativa	M. sativa	USA	NA	NA	U. Wisconsin	1935		1935	3DOa22	GH test 2/13/1984 effective M. sativa, effective M. alba, Hup-
+USDA1023	USDA1023	1023	illumina_2	S. meliloti	Medicago sativa	M. sativa	USA	NA	NA	South Carolina	1948		1948	3DOa23	GH test 2/13/1984 effective M. sativa, effective M. alba, Hup-
+USDA1024A	USDA1024a	1024	illumina_2	S. meliloti	Medicago sativa	M. sativa	Africa	NA	NA	Africa	1950		1950	3DOa24a	GH test 2/13/1984 effective M. sativa, effective M. alba, Hup-
+USDA1025	USDA1025	1025	illumina_2	S. meliloti	Medicago sativa	M. sativa	USA	NA	NA	Arizona	1949		1949	3DOa25	GH test 2/13/1984 effective M. sativa, effective M. alba, Hup-
+USDA1027	USDA1027	1027	illumina_2	S. meliloti	Medicago sativa	M. sativa	Turkey	NA	NA	Turkey	1952		1952	3DOa27	GH test 2/13/1984 effective M. sativa, effective M. alba, Hup-
+USDA1031	USDA1031	1031	illumina_2	S. meliloti	Medicago sativa	M. sativa	Turkey	NA	NA	Turkey	1952		1952	3DOa31	GH test 2/13/1984 effective M. sativa, effective M. alba, Hup-
+USDA1035	USDA1035	1035	illumina_2	S. meliloti	Medicago sativa	M. sativa	USA	NA	NA	Minnesota	1959		1959	3DOa235	GH test 11/25/1981, 2/13/1984 effective M. sativa, effective M. alba, Hup-
+USDA1107	USDA1107	1107	illumina_2	S. meliloti	Medicago sativa	M. sativa	Brazil	NA	NA	MIRCEN			NA	BRAZIL 134	GH test 9/83 - effective for M. sativa. 2/17/84 - effective for M. sativa and M. alba.
+USDA1146	USDA1146	1146	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Canada	NA	NA	Winfield, Alberta, Canada	1956		1956	No. 102F30, Alfalfa #36	Ladak
+USDA1158	USDA1158	1158	illumina_2	S. meliloti	Medicago sativa (Alfalfa) (TEAM)	M. sativa	USA	NA	NA	Clayton, N.C. (Biodoz)	April, 1973	April	1973	No. 102F72, Medicago #8	?
+USDA1161	USDA1160	1161	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	Smithfield, N.C.	April, 1973	April	1973	No. 102F78, Medicago #29	\good among poor\ ?
+USDA1162	USDA1162	1162	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Australia	NA	NA	Canbera, Australia	March, 1977	Mar	1977	No. 102F83, Australia CC164	From John Brockwell
+USDA1163	USDA1163	1163	illumina_2	S. meliloti	Medicago sativa (Alfalfa) (CUF 101)	M. sativa	Tunisia	NA	NA	Korba, Tunisia	June, 82	June	1982	No. 102F93, MSK-2	?
+USDA1170	USDA1170	1170	illumina_2	S. meliloti	Medicago laciniata	M. laciniata	Tunisia	NA	NA	Saida, Tunisia	June, 82	June	1982	No. 102L4, MLE-4	?
+USDA1171	USDA1171	1171	illumina_2	S. meliloti	Medicago arborea	M. arborea	Tunisia	NA	NA	Tunisia	April, 1984	April	1984	No. 102N2, MAB-3, 115C2 (Tunisian)	?
+USDA1180	USDA1180	1180	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Tunisia	NA	NA	Safy, Tunisia	1981		1981	M 101	Isolated by Walter Graves, Received from Nitragin Co. Very salty soil
+USDA1183	USDA1183	1183	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	University of Minnesota			NA	305-5a	From: Rosemont Experiment Station, Bill Ellis, Minnesota
+USDA1184	USDA1184	1184	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	University of Minnesota			NA	201-5b	From: Rosemont Experiment Station, Bill Ellis, Minnesota
+USDA1186	USDA1186	1186	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	University of Minnesota			NA	Line L106	From: St. Paul Campus, Bill Ellis, Minnesota
+USDA1187	USDA1187	1187	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	University of Minnesota			NA	Was-Ver-2	From: Waseca Experiment Station, Bill Ellis, Minnesota
+USDA1191	USDA1191	1191	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	University of Minnesota			NA	Was-SAR-3	From: Waseca Experiment Station, Bill Ellis, Minnesota
+USDA1195	USDA1195	1195	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	University of Minnesota			NA	Line BE 11	From: Becker Experiment Station, Bill Ellis, Minnesota
+USDA1198	USDA1198	1198	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	University of Minnesota			NA	GR 10	From: Grand Rapids Experiment Station, Bill Ellis, Minnesota
+USDA1199	USDA1199	1199	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	University of Minnesota			NA	Line ST 1	From: Staples Experiment Station, Bill Ellis, Minnesota
+USDA1200	USDA1200	1200	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	University of Minnesota			NA	Line ST 14	From: Staples Experiment Station, Bill Ellis, Minnesota
+USDA1202	USDA1202	1202	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	University of Minnesota			NA	Line ROS 15	From: Roseau Experiment Station, Bill Ellis, Minnesota
+USDA1203	USDA1203	1203	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	University of Minnesota			NA	alfalfa line L55	From: St. Paul Campus, Bill Ellis, Minnesota
+USDA1204	USDA1204	1204	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	University of Minnesota			NA	alfalfa line L34	From: St. Paul Campus, Bill Ellis, Minnesota
+USDA1205	USDA1205	1205	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	University of Minnesota			NA	alfalfa line GR A.	From: Grand Rapids Experiment Station, Bill Ellis, Minnesota
+USDA1206	USDA1206	1206	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	University of Minnesota			NA	alfalfa line GR C.	From: Grand Rapids Experiment Station, Bill Ellis, Minnesota
+USDA1208	USDA1208	1208	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	University of Minnesota			NA	alfalfa line CR D.	From: Crookston, Bill Ellis, Minnesota
+USDA1210	USDA1210	1210	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	University of Minnesota			NA	alfalfa line L-55	From: St. Paul Campus, Bill Ellis, Minnesota
+USDA1211	USDA1211	1211	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	Oregon State University			NA	?	From: OSU, P.J. Bottomley, Corvallis, Oregon
+USDA1212	USDA1212	1212	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Canada	NA	NA	Agriculture Canada	1/20/88	Jan	1988	NRG-43	From: AG, Perry Olsen, Beaverlodge, Alberta, Canada
+USDA1214	USDA1214	1214	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Canada	NA	NA	Agriculture Canada	1/20/88	Jan	1988	NRG-185	From: AG, Perry Olsen, Beaverlodge, Alberta, Canada
+USDA1215	USDA1215	1215	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	Becker, Minnesota	10-84.	Oct	1984	?	From: Becker, Bill Ellis, Minnesota
+USDA1220	USDA1220	1220	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	Becker, Minnesota	10-84.	Oct	1984	?	From: Becker, Bill Ellis, Minnesota
+USDA1221	USDA1221	1221	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	IAREC, Prosser, Wash.	5-18-82.	May	1982	H-2	From: IAREC, Richard Peaden, Prosser, Washington.
+USDA1222	USDA1222	1222	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	Prosser, Wash. 	5-18-82.	May	1982	F-29	From: IAREC, Richard Peaden, Prosser, Washington.
+USDA1225	USDA1225	1225	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	Echo, Oregon	5-9-80.	May	1980	?	From: Echo, P.J. Bottomly, Corvallis, Oregon.
+USDA1227	USDA1227	1227	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	Ione, Oregon	5-9-80.	May	1980	?	From: Ione, P.J. Bottomly, Corvallis, Oregon.
+USDA1232	USDA1232	1232	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	Prineville, Oregon	5-28-80.	May	1980	?	From: Prineville, P.J. Bottomly, Corvallis, Oregon.
+USDA1235	USDA1235	1235	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	Echo, Oregon	5-9-82.	May	1982	?	From: Echo, P.J. Bottomly, Corvallis, Oregon.
+USDA1237	USDA1237	1237	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	2.5 miles N of Esparto, CA	10-27-81.	Oct	1981	?	From: Larry R. Tueber, Davis, CA.
+USDA1248	USDA1248	1248	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	UC Davis Agronomy Farm	10-27-81.	Oct	1981	?	From: Agronomy Farm (C-1), Larry R. Tueber, Davis, CA.
+USDA1264	USDA1264	1264	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	Valley Road, Reno, Nevada	10/1/81.	Oct	1981	?	From: Tom McCoy, Reno, Nevada.
+USDA1280	USDA1280	1280	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	Plant Science Farm, Las Cruces	5/17/82.	May	1982	?	From: Bill Melton, Las Cruces, New Mexico.
+USDA1289	USDA1289	1289	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	North Dakota State U	10/15/81.	Oct	1981	?	From: Dr. Dwain W. Meyer, Fargo, North Dakota.
+USDA1302	USDA1302	1302	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	South Dakota State University Nutrition Unit North, Old 77	10/02/81.	Oct	1981	?	From: F.R. Vigil, Brookings, South Dakota
+USDA1308	USDA1308	1308	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	Mead Experiment Station	10/06/81.	Oct	1981	?	From: W.R. Kehr, Lincoln, Nebraska
+USDA1320	USDA1320	1320	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	Ashland Research Farm	11/25/81	Nov	1981	?	From: Edgar L. Sorenson, Manhattan, Kansas
+USDA1325	USDA1325	1325	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	Ashland Research Farm	11/25/86	Nov	1986	?	From: Edgar L. Sorenson, Manhattan, Kansas
+USDA1335	USDA1335	1335	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	Ashland Research Farm	11/25/96	Nov	1996	?	From: Edgar L. Sorenson, Manhattan, Kansas
+USDA1336	USDA1336	1336	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	Agronomy Research Station, Tipton, Tillman County, Oklahoma	10/9/81	Oct	1981	?	From: John L. Caddel, Stillwater, Oklahoma
+USDA1357	USDA1357	1357	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	Southwest Center, Mt. Vernon Lawrence County	9/28/81.	Sept	1981	?	From: Paul R. Beuselinck, Columbia, Missouri
+USDA1379	USDA1379	1379	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	Urbana, Illinois Agronomy Farm	10/20/81.	Oct	1981	?	From: Darrell A. Miller, Urbana, Illinois
+USDA1389	USDA1389	1389	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	Spindletop Farm, Lexington, KY	10/07/81.	Oct	1981	?	From: Roy E. Sigafus, Lexington, KY
+USDA1397	USDA1397	1397	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	Animal Research Center, Mississippi State	5/23/82.	May	1982	?	From: Charles Hagedorn, Mississippi Sta, Mississippi
+USDA1415	USDA1415	1415	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	Reedsvile Experimental Farm, Arthurdale	5/11/82.	May	1982	?	From: John A. Balasko, Morgantown, West Virginia
+USDA1416	USDA1416	1416	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	Wardensville Experimental Farm	5/14/82.	May	1982	?	From: John A. Balasko, Morgantown, West Virginia
+USDA1456	USDA1456	1456	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	Gainesville, Florida	10/1/81	Oct	1981	?	From: Earl S. Horner, Gainesville, Florida
+USDA1462	USDA1462	1462	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	New Ketola Field, Ithaca	10/15/81.	Oct	1981	?	From: D.R. Viands, Ithaca, NY
+USDA1463	USDA1463	1463	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	New Ketola Field, Ithaca	10/15/81.	Oct	1981	?	From: D.R. Viands, Ithaca, NY
+USDA1464	USDA1464	1464	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	Rock Springs, Centre County	9/29/81.	Sept	1981	?	From: R.R. Hill, Jr. University Park, PA
+USDA1467	USDA1467	1467	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	University Farm, South Burlington	9/29/81.	Sept	1981	?	From: William Murphy, Burlinton, Vermont
+USDA1491	USDA1491	1491	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	Storrs, Connecticut	9/28/81.	Sept	1981	?	From: W.W. Washko, Storrs, Connecticut
+USDA1496	USDA1496	1496	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	Getty Tract, BARC-E	10/01/81.	Oct	1981	?	From: Jim Elgin, Beltsville, Maryland
+USDA1497	USDA1497	1497	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	BARC-E, East Farm	10/01/81.	Oct	1981	?	From: Jim Elgin, Beltsville, Maryland
+USDA1501	USDA1501	1501	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	East Alco Plots, 10 miles south of Frederick, Maryland	10/01/81.	Oct	1981	?	From: Jim Elgin, Beltsville, Maryland
+USDA1508	USDA1508	1508	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	Stillwater, Maine	10/29/81.	Oct	1981	?	From: Robert G. Hall, Orono, Maine
+USDA1519	USDA1519	1519	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Puerto Rico	NA	NA	Corozal Agricultural Experiment Substation	10/20/81.	Oct	1981	?	From: Jaime Velez Santiago, Corozal, Puerto Rico
+USDA1520	USDA1520	1520	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Hawaii	NA	NA	University of Hawaii, Mealani Experiment Station	10/09/81.	Oct	1981	?	From: John R. Thompson, Hilo, Hawaii
+USDA1530	USDA1530	1530	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Hawaii	NA	NA	University of Hawaii, Mealani Experiment Station	10/09/81.	Oct	1981	?	From: John R. Thompson, Hilo, Hawaii
+USDA1533	USDA1533	1533	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	John Moore Farm; Dover 	10/09/81.	Oct	1981	?	From: Edward R. Jones, Dover, Delaware
+USDA1550	USDA1550	1550	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	Central Georgia Branch Station, Eatonton, Georgia	11/12/81.	Nov	1981	?	From: J.H. Bouton, Athens, GA
+USDA1561	USDA1561	1561	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	Moscow, Idaho	5/07/82.	May	1982	?	From: R.D. Ensign, Moscow, Idaho
+USDA1562	USDA1562	1562	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	Kimberly, Idaho	5/07/82.	May	1982	?	From: R.D. Ensign, Moscow, Idaho
+USDA1565	USDA1565	1565	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	Sandpoint, Idaho	5/07/82.	May	1982	?	From: R.D. Ensign, Moscow, Idaho
+USDA1566	USDA1566	1566	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	Dekalb County, Alabama	7/01/82.	July	1982	?	From: Don Ball, Auburn, Alabama
+USDA1571	USDA1571	1571	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	Bullock County, Alabama	7/01/82.	July	1982	?	From: Don Ball, Auburn, Alabama
+USDA1581	USDA1581	1581	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Turkey	NA	NA	USDA 1030 Turkey	1952		1952	USDA 1030	From: Richard Griffin, Beltsville, Maryland
+USDA1583	USDA1583	1583	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	USDA 1042 Virginia	1911		1911	USDA 1042	From: Richard Griffin, Beltsville, Maryland
+USDA1580	USDA1588	1580	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	USDA 1029 Turkey	1952		1952	USDA 1029	From: Richard Griffin, Beltsville, Maryland
+USDA1589	USDA1589	1589	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	USDA 1069 Tennessee	1948		1948	USDA 1069	From: Richard Griffin, Beltsville, Maryland
+USDA1590	USDA1590	1590	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	USDA 1091 Florida	1950		1950	USDA 1091	From: Richard Griffin, Beltsville, Maryland
+USDA1591	USDA1591	1591	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	USDA 1093 Alaska	1949		1949	USDA 1093	From: Richard Griffin, Beltsville, Maryland
+USDA1593	USDA1593	1593	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	USDA 1097 North Dakota	1948		1948	USDA 1097	From: Richard Griffin, Beltsville, Maryland
+USDA1594	USDA1594	1594	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Morocco	NA	NA	USDA 1098 Morocco	1974		1974	USDA 1098	From: Richard Griffin, Beltsville, Maryland
+USDA1603	USDA1603	1603	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	USA	NA	NA	Delaware State College Farm	10/9/81	Oct	1981	941.5?	From: Edward R. Jones, Dover, Delaware
+USDA1612	USDA1612	1612	illumina_2	S. meliloti	Medicago rigidula	M. rigidula	Iraq	NA	NA	Ninevah, Iraq			NA		From: John Howieson, Western Australia Dept. of Agriculture on 11/87.
+USDA1613	USDA1613	1613	illumina_2	S. meliloti	Medicago noeana	M. noeana	Iraq	NA	NA	Jabal Sinjar, Iraq			NA		From: John Howieson, Western Australia Dept. of Agriculture on 11/87.
+USDA1614	USDA1614	1614	illumina_2	S. meliloti	Medicago radiata	M. radiata	Iraq	NA	NA	Jabal Sinjar, Iraq			NA		From: John Howieson, Western Australia Dept. of Agriculture on 11/87.
+USDA1616	USDA1616	1616	illumina_2	S. meliloti	Medicago littoralis	M. littoralis	Iraq	NA	NA	Hatra, \North Africa\			NA		From: John Howieson, Western Australia Dept. of Agriculture on 11/87.
+USDA1617	USDA1617	1617	illumina_2	S. meliloti	Medicago minima	M. minima	Syria	NA	NA	Tel Hadya, Syria			NA		From: John Howieson, Western Australia Dept. of Agriculture on 11/87.
+USDA1623	USDA1623	1623	illumina_2	S. meliloti	Medicago rigidula	M. rigidula	Iraq	NA	NA	Jabal Sinjar, Iraq			NA		From: John Howieson, Western Australia Dept. of Agriculture on 11/87.
+USDA1626	USDA1626	1626	illumina_2	S. meliloti	Medicago murex	M. murex	Sardinia	NA	NA	NE Loceri, Sardinia			NA		From: John Howieson, Western Australia Dept. of Agriculture on 11/87.
+USDA1655	USDA1655	1655	illumina_2	S. meliloti	Medicago rigidula	M. rigidula	Greece	NA	NA	Sarnos, Greece			NA		From: John Howieson, Western Australia Dept. of Agriculture on 11/87.
+USDA1656	USDA1656	1656	illumina_2	S. meliloti	Medicago constricta	M. constricta	Greece	NA	NA	Asprovolta, Greece			NA		From: John Howieson, Western Australia Dept. of Agriculture on 11/87.
+USDA1659	USDA1659	1659	illumina_2	S. meliloti	Medicago littoralis	M. littoralis	Greece	NA	NA	Olymbiada, Greece			NA		From: John Howieson, Western Australia Dept. of Agriculture on 11/87.
+USDA1660	USDA1660	1660	illumina_2	S. meliloti	Medicago praecox	M. praecox	Greece	NA	NA	Andros, Greece			NA		From: John Howieson, Western Australia Dept. of Agriculture on 11/87.
+USDA1661	USDA1661	1661	illumina_2	S. meliloti	Medicago constricta	M. constricta	Greece	NA	NA	Nikitas, Greece			NA		From: John Howieson, Western Australia Dept. of Agriculture on 11/87.
+USDA1666	USDA1666	1666	illumina_2	S. meliloti	Medicago marina	M. marina	Greece	NA	NA	Asprovolta, Greece			NA		From: John Howieson, Western Australia Dept. of Agriculture on 11/87.
+USDA1676	USDA1667	1676	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. polymorpha	France	NA	NA	Villeneuve d'As, France	1972		1972	Rhizobium meliloti, M95	From: Michel W. Erquin 8/8/88
+USDA1678	USDA1678	1678	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Rhodesia	NA	NA	Rhodesia	06/21/82.	June	1982	Rhizobium meliloti strain R1220 World Culture Collection No. 43.	From: S.M. Lesley, Biology Rersearch Institute, Agriculture Canada, 8/8/88.
+USDA1687	USDA1687	1687	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Canada	NA	NA	Canada	06/21/82.	June	1982	Rhizobium meliloti strain AP8	From: S.M. Lesley, Biology Rersearch Institute, Agriculture Canada, Ontario, Ottawa, 8/8/88.
+USDA1688	USDA1688	1688	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Canada	NA	NA	Canada	06/21/88.	June	1988	Rhizobium meliloti strain MB3	From: S.M. Lesley, Biology Rersearch Institute, Agriculture Canada, Ontario, Ottawa, 8/8/88.
+USDA1691	USDA1691	1691	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Canada	NA	NA	Canada	06/21/82.	June	1982	Rhizobium meliloti strain 102F70	From: S.M. Lesley, Biology Rersearch Institute, Agriculture Canada, Ontario, Ottawa, 8/8/88.
+USDA1692	USDA1692	1692	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	France	NA	NA	France	04/07/82.	Apr	1982	Rhizobium meliloti M11S	From: Dr. Michel Werquin, Universite des Sciences, Techniques de Lille, Villeneuve d'As, France, 08/08/88.
+USDA1695	USDA1695	1695	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	France	NA	NA	France	11/6/87	Nov	1987	Rhizobium meliloti M14S	From: Dr. Michel Werquin, Universite des Sciences, Techniques de Lille, Villeneuve d'As, France, 08/08/88.
+USDA1696	USDA1696	1696	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Switzerland	NA	NA	Barzheim, Schaffhausen	8/08/88.	Aug	1988		From: G. Cadisch Institute of Plant Science, Zurich, Switzerland
+USDA1699	USDA1699	1699	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Switzerland	NA	NA	Zurich	8/08/88.	Aug	1988		From: G. Cadisch Institute of Plant Science, Zurich, Switzerland
+USDA1700	USDA1700	1700	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Switzerland	NA	NA	Bellinoza, Ticino	8/08/88.	Aug	1988		From: G. Cadisch Institute of Plant Science, Zurich, Switzerland
+USDA1702	USDA1702	1702	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Sweden	NA	NA	Weibullsholm trial field, South Sweden	11/25/87.	Nov	1987		From: Hans Arne Jonsson Weibullsholm Plant Breeding Institute, Landskrona, Sweden.
+USDA1703	USDA1703	1703	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Sweden	NA	NA	Haljarp, South Sweden	11/25/87.	Nov	1987		From: Hans Arne Jonsson Weibullsholm Plant Breeding Institute, Landskrona, Sweden.
+USDA1706	USDA1706	1706	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Sweden	NA	NA	Tofterup, South Sweden	11/25/87.	Nov	1987		From: Hans Arne Jonsson Weibullsholm Plant Breeding Institute, Landskrona, Sweden.
+USDA1708	USDA1708	1708	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Poland	NA	NA	Radzikow Field No. 12.	05/09/88.	May	1988		From: Zygmunt Staszewski Plant Breeding and Acclimatization Institute, Blonie, Poland.
+USDA1710	USDA1710	1710	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Pakistan	NA	NA	Busin, Pakistan	1985		1985	19A20ii IP*	From: Robert Berg, Utah State University
+USDA1719	USDA1719	1719	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Pakistan	NA	NA	Rhondu, Pakistan	1986		1986	123A14 IP*	From: Robert Berg, Utah State University
+USDA1724	USDA1724	1724	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Pakistan	NA	NA	Senkhore, Pakistan	1986		1986	74B20 IP*	From: Robert Berg, Utah State University
+USDA1730	USDA1730	1730	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Poland	NA	NA	Cracow, Poland	5/9/88	May	1988	?	From: Zygmunt Staszewski Plant Breeding and Acclimatization Institute, Blonie, Poland.
+USDA1734	USDA1734	1734	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Pakistan	NA	NA	Kachura, Pakistan	1986		1986	56A18ii IP*	From: Robert Berg, Utah State University
+USDA1742	USDA1742	1742	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Pakistan	NA	NA	Jalabad, Pakistan	1985		1985	17C5 IP*	From: Robert Berg, Utah State University, 07/93
+USDA1751	USDA1751	1751	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Pakistan	NA	NA	Valley, Pakistan	1985		1985	15Bb9 IP*	From: Robert Berg, Utah State University, 07/102
+USDA1760	USDA1760	1760	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Pakistan	NA	NA	Murtazabad, Pakistan	1985		1985	5C15 IP*	From: Robert Berg, Utah State University, 07/111
+USDA1767	USDA1767	1767	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Norway	NA	NA	Loken, Norway	10/88.		1988	?	From: Petter Marum, State Agricultural Research, Norway
+USDA1770	USDA1770	1770	illumina_2	S. meliloti	Medicago falcata (yellow alfalfa)	M. falcata	Nepal	NA	NA	Jomson, Nepal	1986		1987	N6B13 IP*	From: Robert Berg, Utah State University, 07/88.
+USDA1777	USDA1777	1777	illumina_2	S. meliloti	Medicago falcata (yellow alfalfa)	M. falcata	Nepal	NA	NA	Jomson, Nepal	1986		1986	N4A12i IP*	From: Robert Berg, Utah State University, 07/88.
+USDA1787	USDA1787	1787	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Japan	NA	NA	Nishinasuno, Tochigi, Japan	11/26/87.	Nov	1987		From: Ken-ichi Suginobu National Grassland Research Institute, 12/14/87.
+USDA1788	USDA1788	1788	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Japan	NA	NA	Nishinasuno, Tochigi, Japan	11/26/87.	Nov	1987		From: Ken-ichi Suginobu National Grassland Research Institute, 12/14/87.
+USDA1790	USDA1790	1790	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Italy	NA	NA	S. Martino (Perugia), Italy	12/15/87.	Dec	1987		From: Mario Falcinelli, Inst. Miglioramento Genetico Vegetale, University of Perugia, Borgo XX Giugno, Italy, 02/03/88.
+USDA1791	USDA1791	1791	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Italy	NA	NA	S. Piero a Sieve, Italy	12/15/87.	Dec	1987		From: Mario Falcinelli, Inst. Miglioramento Genetico Vegetale, University of Perugia, Borgo XX Giugno, Italy, 02/03/88.
+USDA1792	USDA1792	1792	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Italy	NA	NA	Paganico, (Grosseto), Italy	12/15/87.	Dec	1987		From: Mario Falcinelli, Inst. Miglioramento Genetico Vegetale, University of Perugia, Borgo XX Giugno, Italy, 02/03/88.
+USDA1793	USDA1793	1793	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Hungary	NA	NA	Kompolt, Hungary	09/05/88.	Sept	1988		From: Bela Nagy Research Institute, Hungary
+USDA1794	USDA1794	1794	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Hungary	NA	NA	Albertmajor, Hungary	09/05/88.	Sept	1988		From: Bela Nagy Research Institute, Hungary
+USDA1795	USDA1795	1795	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Greece	NA	NA	Larissa, Tmima Sitiron, Greece	6/16/88	Sept	1988		From: TH. Vaitsis Fodder Crops and Pastures Institute, Greece, 06/27/88.
+USDA1796	USDA1796	1796	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Greece	NA	NA	Larissa, Kentrico, Greece	06/16/88.	Sept	1988		From: TH. Vaitsis Fodder Crops and Pastures Institute, Greece, 06/27/88.
+USDA1803	USDA1803	1803	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Egypt	NA	NA	Nobaria, Egypt	11/12/87.	Nov	1987		From: Dr. Ahmed Rammah, Agricultural Research Center, Giza, Egypt, 1/15/88.
+USDA1804	USDA1804	1804	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Egypt	NA	NA	Ismaelia, Egypt	12/14/87.	Dec	1987		From: Dr. Ahmed Rammah, Agricultural Research Center, Giza, Egypt, 1/15/88.
+USDA1808	USDA1808	1808	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Canada	NA	NA	Blk. 12-6, Saskatoon Research Station, Canada	11/12/87.	Nov	1987		From: B.P. Golpen Research Station, Saskatoon, Saskatchewan, Canada, 11/25/87.
+USDA1810	USDA1810	1810	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Canada	NA	NA	Blk. 11-3, Saskatoon Research Station, Canada	11/12/87.	Nov	1987		From: B.P. Golpen Research Station, Saskatoon, Saskatchewan, Canada, 11/25/87.
+USDA1819	USDA1819	1819	illumina_2	S. meliloti	Medicago sativa (Alfalfa)	M. sativa	Pakistan	NA	NA	Senkhore, Pakistan	1986		1987	74B6ii IP	From: Robert Berg, Utah State University.
+USDA1883	USDA1883	1883	illumina_2	S. meliloti	Medicago ruthenica	M. ruthenica	China	NA	NA	Mongolia, China			NA	Soil Sample 30, Syn. 30a	From: same source as USDA1843, Effective, good plant growth
+USDA1919	USDA1919	1919	illumina_2	S. meliloti	Medicago ruthenica	M. ruthenica	China	NA	NA	Mongolia, China			NA	Soil Sample 60, Syn. 60a	From: same source as USDA1843, Effective, good plant growth
+USDA1106	USDA1106	1106	Pacbio|illumina_1|illumina_2	S. meliloti	M. sativa	M. sativa	USA	NA	NA	California	1939		1939	3DOa15, ATCC 10311	GH test 9/83 - effective for M. sativa. 2/17/84 - effective for M. sativa and M. alba., in Epstein et al. & Suguwara et al. 
+USDA1157	USDA1157	1157	Pacbio|illumina_1|illumina_2	S. meliloti	M. sativa (Alfalfa)	M. sativa	USA	NA	NA	Prosser, Wash. - Elliot	1968		1968	No. 102F67, Alfalfa #32	In Epstein et al. & Suguwara et al.

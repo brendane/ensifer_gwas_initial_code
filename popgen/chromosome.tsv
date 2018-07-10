@@ -1,0 +1,5 @@
+#compute -i Uni0.fasta -o Uni0.tsv 
+#Mon Mar  5 16:58:59 2018
+
+locus	nsam	nsites	nsites_ug	S	Singletons	NMut	nhap	hapdiv	WallsB	WallsQ	ThetaW	ThetaPi	TajD	FuLiDStar	FuLiFStar	Rmin	rho87
+Uni0.fasta	153	3671869	3671869	196881	126790	200978	153	1	0.387534	0.53543	0.00977507	0.00363356	-2.07561	-7.78755	-5.98154	12512	1.19209e-07	

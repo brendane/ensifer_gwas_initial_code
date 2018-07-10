@@ -1,0 +1,88 @@
+#Full list of “binary” traits. Unless otherwise noted, individual strains were inoculated onto TY plates
+#amended with one of the substances, grown at 30°C for 48 hours, and the phenotype was assessed
+#visually. In most cases, the phenotype was whether or not growth occurred, but other phenotypes
+#(e.g. enzyme activity) were tested for some traits, as noted in the table below. All traits were tested
+#with three replicates. “Enzyme activity” traits were measured following Cappuccino & Sherman
+#(2014, Microbiology: A Laboratory Manual, 11th Edition, New York).
+#The ability to grow in the presence of several flavonoids was assessed by inoculating bacteria onto
+#TY plates that had been ammended with the flavonoid dissolved in the minimum amount of ethanol
+#(Jain & Nainawatee 1999, Folia Microbiologica 44:311-316)."		
+Trait	Trait definition	Concentration of substance on plate
+Anti_Rif	Rifampicin antibiotic resistance	20 µg/ml
+Anti_Eryth	Erythromycin antibiotic resistance	50 µg/ml
+Anti_Trime	Trimethroprim antibiotic resistance	75 µg/ml
+Anti_Chlor	Chloramphenicol antibiotic resistance	50 µg/ml
+Anti_Spec	Spectinomycin antibiotic resistance	20 µg/ml
+Anti_Ampic	Ampicillin antibiotic resistance	100 µg/ml
+Anti_Gent	Gentamicin antibiotic resistance	20 µg/ml
+Anti_Strept	Streptomycin antibiotic resistance	20 µg/ml
+Anti_Kana	Kanamycin antibiotic resistance	20 µg/ml
+Anti_Sulfa	Sulfacetamide antibiotic resistance	75 µg/ml
+Dyes_Aur0.006	Growth with auramine (on YEM plates)	0.01%
+Dyes_Aur0.013	Growth with auramine (on YEM plates)	0.01%
+Dyes_Aur0.05	Growth with auramine (on YEM plates)	0.05%
+Dyes_MG0.006	Growth with methyl green (on YEM plates)	0.01%
+Dyes_MG0.013	Growth with methyl green (on YEM plates)	0.01%
+Dyes_MG0.05	Growth with methyl green (on YEM plates)	0.05%
+Dyes_Nig0.006	Growth with nigrozin (on YEM plates)	0.01%
+Dyes_Nig0.013	Growth with nigrozin (on YEM plates)	0.01%
+Dyes_Nig0.05	Growth with nigrozin (on YEM plates)	0.05%
+Dyes_AcOr0.006	Growth with acridine orange (on YEM plates)	0.01%
+Dyes_AcOr0.013	Growth with acridine orange (on YEM plates)	0.01%
+Dyes_AcOr0.05	Growth with acridine orange (on YEM plates)	0.05%
+Dyes_PrIo0.006	Growth with propidium iodide (on YEM plates)	0.01%
+Dyes_PrIo0.013	Growth with propidium iodide (on YEM plates)	0.01%
+Dyes_PrIo0.05	Growth with propidium iodide (on YEM plates)	0.05%
+Flavonoid_Apigenin	Growth in presence of apigenin	20 µM
+Flavonoid_Luteolin	Growth in presence of luteolin	20 µM
+Flavonoid_Naringenin	Growth in presence of naringenin	20 µM
+Flavonoid_Quercetin	Growth in presence of quercetin	20 µM
+Flavonoid_Flavone	Growth in presence of flavone	20 µM
+Flavonoid_Daidzein	Growth in presence of daidzein	20 µM
+metal_Hg	Growth in presence of mercury (HgCl2)	5 µg/ml Hg
+metal_Cu	Growth in presence of copper (CuCl2)	100 µg/ml Cu
+metal_Zn	Growth in presence of zinc (ZnSO4)	25 µg/ml Zn
+metal_Cd	Growth in presence of cadmium (CdCl2)	20 µg/ml Cd
+metal_Te	Te reduction (black color on  K2TeO3 ammended plates)	8 mM Te
+metal_Se	Se reduction (red color on Na2SeO3 ammended plates)	8 mM Se
+NaCLmM_200	NaCl tolerance	200 mM
+NaCLmM_300	NaCl tolerance	300 mM
+NaCLmM_500	NaCl tolerance	500 mM
+NaCLmM_600	NaCl tolerance	600 mM
+NaCLmM_800	NaCl tolerance	800 mM
+other_Calcofluor	Presence of Calcofluor-binding exopolysaccharides visible under UV light	0.02% Calcofluor
+other_X.gal	β-galactosidase activity, indicated by blue color on plates	25 µg/ml
+other_Ketolactose	Test of 3-ketolactose production (enzyme activity)	N/A
+other_Nitrate	Test of nitrate reductase activity (enzyme activity)	0.2% (KNO3)
+other_Motility	Liquid cultures examined under microscope to see if cells are motile	N/A
+other_Starch.hydr.	Test of starch hydrolysis (enzyme activity)	0.40%
+other_KNO3.8..	Growth with KNO3	8.00%
+other_MM	Growth on minimal medium	N/A
+other_H2S	Test of hydrogen sulfide production (enzyme activity)	N/A
+other_Urease24h	Test of urease activity (enzyme activity)	20 g / L urea
+other_Catalse	Test of catalase activity (enzyme activity)	3% H2O2
+other_Peroxidase	Test of peroxidase activity (enzyme activity) – using Isoproterenol hydrochloride	5 mg / ml
+other_Gelatinase	Test of gelatinase activity (enzyme activity)	120 g / L
+other_P.solubilization	Test of phosphatase activity (enzyme activity)	0.50%
+other_TY	Growth on TY media (5g Tryptone, 3g yeast extract, and 1.3 CaCl2.6H2O per liter)	N/A
+other_Congored	Colony color on YEM plates amended with Congo Red (grown at 28° C for five days)	25 µg/ml
+other_Brom..Blue	Change of color on YEM agar plates with bromthymol blue	25 µg/ml
+other_LB	Growth in Luria-Bertoni media  (Tryptone 10g, NaCl 10g and yeast extract 5g per liter) 	N/A
+pH_5	Growth on plates at pH 5	N/A
+pH_6	Growth on plates at pH 6	N/A
+pH_7	Growth on plates at pH 7	N/A
+pH_8	Growth on plates at pH 8	N/A
+pH_9	Growth on plates at pH 9	N/A
+pH_11	Growth on plates at pH 11	N/A
+Siderophore	Color change from blue to orange as a result  of siderophore production  (CAS assay)	N/A
+Temp_20	Growth at 20° C	N/A
+Temp_28	Growth at 28° C	N/A
+Temp_37	Growth at 37° C	N/A
+Temp_40	Growth at 40° C	N/A
+Temp_43	Growth at 43° C	N/A
+PEG_.05	Growth with PEG4000 	5.00%
+PEG_.10	Growth with PEG4000	10.00%
+PEG_.15	Growth with PEG4000	15.00%
+PEG_.20	Growth with PEG4000	20.00%
+PEG_.25	Growth with PEG4000	25.00%
+PEG_LWA	Drought tolerance at relative humidity (RH) 22% Growth in dessiccator using   saturated potassium acetate	22% RH

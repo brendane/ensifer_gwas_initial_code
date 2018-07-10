@@ -1,0 +1,5 @@
+#compute -i all.fasta -o all.tsv 
+#Mon Mar  5 16:46:10 2018
+
+locus	nsam	nsites	nsites_ug	S	Singletons	NMut	nhap	hapdiv	WallsB	WallsQ	ThetaW	ThetaPi	TajD	FuLiDStar	FuLiFStar	Rmin	rho87
+all.fasta	153	6716226	6716226	439288	229885	456389	153	1	0.279427	0.405915	0.0121628	0.00611343	-1.64677	-5.59342	-4.38147	32800	2.28166	

@@ -1,0 +1,335 @@
+Last updated 09 July 2018
+
+This is an initial version of the Dryad repository that will eventually
+be created for the Ensifer meliloti GWA manuscript. To facilitate
+review, it is being uploaded as Supplemental Material. These is a 100 Mb
+limit on the size of the files that may be uploaded, so most of the
+results and data files have been left out. However, all the code is
+present.
+
+This repository has the major input and output files and code from
+Epstein et al. XXXX. The first section gives the locations of data that
+were used as input for everything else (reference genome, reads, etc.).
+The second section explains the analysis workflow and tells you where to
+find scripts and output files for each step. The third section explains
+the code used to make the figures and tables in the manuscript.
+
+All of the analysis was run on Minnesota Supercomputing Institute
+servers, and we copied the code as-is to this repository. Thus, anyone
+interested in re-running the analysis will have to make modifications to
+the file paths and the job submission code. However, these scripts do
+provide a complete record of how the analysis was conducted.
+
+
+
+MOST IMPORTANT FILES
+======================
+
+For your convenience, we list here the files that are most likely to be
+useful to other researchers:
+
+1. Selected input and output files
+    
+    - Raw PAVs: pav_calls/output.vcf.gz
+    - Filtered variants (filtered on missingness and whether or not they
+      were segregating, MAF filters applied later):
+      variant_filtering_for_analysis/genome.vcf.gz
+    - Phenotype values for the 20 traits presented in the manuscript:
+      pheno_data/table/phenotypes.mel153.tsv
+    - LMM GWA raw output: gwas/gemma_lmm/*/output/output0.assoc.txt.gz,
+      where * = phenotype name
+    - BSLMM hyper-parameters (PVE, etc) from all chains combined:
+      bslmm/all_vars/*/output.hyp.merged.tsv
+    - Raw SNP calls from FreeBayes will be included in the final Dryad
+      repository, but are too large to include right now.
+
+
+2. Reference genome
+    
+    We used Ensifer meliloti USDA1106 as the reference genome. The
+    assembly is available from NCBI (Accessions NZ_CP021797.1, NZ_CP021798.1,
+    NZ_CP021799.1), but for convenience, we include the sequence and annotation
+    here, under reference_genome/. These files are used in the data processing
+    and analysis scripts discussed below, so here are the original file names
+    on the MSI server:
+
+    | File           | Original File Name                                                |
+    |----------------+-------------------------------------------------------------------|
+    | USDA1106.fasta | data/genotype/annotation/USDA1106/2016-07-18/USDA1106.final.fasta |
+    | cds.gff3       | data/genotype/annotation/USDA1106/2016-07-18/cds.gff3             |
+    | all.gff3       | data/genotype/annotation/USDA1106/2016-07-18/all.gff3             |
+
+
+3. NCBI data
+
+    All of the reads for the strains used in this study are available
+    from SRP118385 on NCBI. The BioSample accession numbers for each
+    strain are found in ncbi/biosamples.txt
+
+
+4. Strain information
+
+    The 153 E. meliloti strains and some information about where they
+    were collected is in strain_info/. In the file called
+    "strain_metadata.txt", the "GWAS_ID" column gives the strain name
+    used throughout the manuscript. The metadata was mostly compiled by
+    Liana Burghardt and Matt Nelson.
+
+
+
+WORKFLOW
+===================
+
+Here we list the complete analysis workflow. All the code, and the most
+relevant input and output files are included in this repository.
+
+1. Calling variants
+
+1.1. SNPs
+
+Joseph Guhlin called SNPs for the 153 strains using FreeBayes (in
+diploid mode), then filtered out variants with QUAL < 20. This file
+is found in snp_calls/all_smeliloti_filter_qual20.vcf.gz.
+
+1.2 PAVs
+
+J. Guhlin also made de novo assemblies from short reads for the 153 E.
+meliloti strains (plus 25 additional strains from other species), and
+annotated the assemblies using glimmer. The nucleotide sequences of all
+the annotated genes were clustered using CDHit (cd-hit-est program). The
+scripts needed to run CDHit and the output files are found in pav_calls.
+
+1.3 Combining and filtering for association analyses
+
+The SNPs and PAVs were combined and partially filtered using:
+
+filter_variants_2017-07-04.sh
+
+This removed invariant sites and sites with > 20% missingness. It also
+"normalized" multi-allelic sites by splitting them into multiple
+bi-allelic variants. And, it got rid of indels. Minor allele frequency
+filtering was done in downstream steps.
+
+The scripts needed to do this, along with the major output VCF files are
+found in variant_filtering_for_analysis/. ** NOTE: These are the variant
+files that were used for nearly all of the data analysis reported in the
+manuscript. genome.vcf.gz was the input file for association analyses. **
+
+    (Note that some of these files are not included in the initial
+    release to save space.)
+
+    | File                     | Description                                             |
+    |--------------------------+---------------------------------------------------------|
+    | genome.vcf.gz            | Combined SNPs and PAVs, with MNPs left intact, but      |
+    |                          | multi-allelic sites split into multiple records         |
+    |--------------------------+---------------------------------------------------------|
+    | genome.unnorm.vcf.gz     | Same as genome.vcf.gz, but with each site in one record |
+    |--------------------------+---------------------------------------------------------|
+    | genome.primitives.vcf.gz | Same as "unnorm" but with MNPs broken into SNPs         |
+    |--------------------------+---------------------------------------------------------|
+    | genome.realcoords.tsv    | Positions of actual segregating sites in genome.vcf.gz  |
+    |--------------------------+---------------------------------------------------------|
+    | genome.variants.fasta    | FASTA file with just variant positions included         |
+    |--------------------------+---------------------------------------------------------|
+    | genome.variants.tsv      | Tab-delimited format with variants (1=ref, 0=alt)       |
+    |                          | created from genome.vcf.gz. For PAVs, 1=present and     |
+    |                          | 0=absent.                                               |
+    |--------------------------+---------------------------------------------------------|
+
+    Note that the IDs for PAVs all start with "rdv", and IDs for SNPs
+    all start with "snp".
+
+
+1.4 LD grouping
+
+The variants were put in LD groups using a custom C++ program. The
+source code for the program is in src/r2_groups_xtra_sort.cpp.
+
+The script used to run the grouping, along with the major output file
+for the 0.95 and 0.80 grouping levels is in ld_groups.
+
+Only variants with MAF > 5% were included. For each group, one variant
+was chosen to be the representative for GWAS. This was the variant with
+the least missing data, and (if there were ties), the greatest MAF.
+
+Output files:
+    - one_variant.tsv       One row per seed variant
+    - output.tsv            One row per variant
+
+
+
+2. Processing phenotypes
+
+There were several sources of phenotypes:
+    - biolog plates (one replicate each) from Abdelaal Shameldsin
+    - "binary" phenotypes from Reda Abou-Shanab
+    - growth rate phenotypes from Margaret Taylor
+    - plant nodule number and biomass phenotypes, also from Margaret
+      Taylor and Matt Nelson
+
+2.1 Biolog phenotypes
+
+The raw absorbance values for the Biolog plates are found in
+pheno_data/biolog/data.tsv.
+
+The data were transformed using a python script. This produced the
+transformed phenotype values that have been used for GWAS. The idea was
+to reduce differences due to batches, and overall strain growth rates,
+by dividing by the mean absorbance of three sugars (Sucrose, Glucose,
+and Fructose) that had reliably good growth.
+
+The script (2016-08-17_24hr.py) and the output file (biolog.tsv) are
+also in pheno_data/biolog/. Note that there were some strains that were
+not included in the ms that were part of the original dataset -- these
+have been removed. Strain 1280 was also removed because the water
+absorbance was relatively high.
+
+2.2 Binary phenotypes
+
+The raw binary phenotypes can be found in
+pheno_data/binary/non_biolog.tsv.
+
+For certain phenotypes that occurred in series -- like testing whether a
+strain could grow at five different temperatures -- I combined them into
+a single composite phenotype. The script
+(process_phenotypes_composite_2017-01-31) and output file
+(composite_pheno.tsv) are also found in pheno_data/binary. There are a
+few extra strains included.
+
+There is a file with details on all the binary traits: binary_trait_details.tsv.
+
+2.3 Growth rate
+
+Raw data and the reciprocal of doubling time column that is actually
+used for the association analyses (there are a few extra strains here
+too):
+
+pheno_data/growth_rate/growth_rate.tsv
+
+2.4 Plant phenotypes
+
+Data that have been reformatted, cleaned, and adjusted for various
+experimental design effects (block, chamber):
+
+pheno_data/plant/adjusted_2017-07-12.tsv
+
+plant_data/2017-06-30/adjusted_2017-07-12.tsv
+
+Note that these plant phenotype data were also used for Burghardt et al.
+2018 (PNAS, 10.1073/pnas.1714246115). That manuscript has some details
+on the data processing.
+
+2.5 Bioclim climate phenotypes
+
+First, the raw bioclim data was assembled using the script
+add_bioclim.r, which can be found in pheno_data/bioclim. The output was
+data_bioclim.tsv (same directory).
+
+Then, a pca was run on the raw data:
+process_phenotypes_bioclim_30sec_2016-10-13.r. The PCA loadings are in
+loadings.tsv, and the coordinates of strains on the PC axes are in
+pca.tsv.
+
+
+2.6 Combined for association testing convenience
+
+A table of processed phenotypes was assembled using
+tabulate_phenotypes_2018-05-03.py. The script and output are in
+pheno_data/table/.
+
+2.7 Randomized phenotypes for association
+
+We created 100 random permutations of phenotypes for running association
+testing in one of the gwas scripts (see below), and then compiled them
+for use in other analyses. The script and results are in
+pheno_data/random/.
+
+random_phenotypes_table_2017-09-21
+
+
+
+3. Linear mixed models in GEMMA
+
+The standard GWAS analysis was run using GEMMA with the -lmm 4 option.
+The script (gwas_gemma_2017-07-17.sh) and selected output files (grouped
+by phenotype) can be found in gwas/gemma_lmm.
+
+A few notes:
+    - The gwas script runs several iterations, each of which uses the
+      top variants from previous iterations as covariates. However, we
+      decided to only use the results of the first iteration (no
+      covariates aside from the K matrix) in the ms.
+    - output.0.closest.genes.tsv: output file containing annotations,
+      ordered by p-value
+    - output/output0.assoc.txt.gz: raw output from GEMMA
+
+The gwas was also run 100 times on permuted phenotypes. The script and
+selected output files for this are found in gwas/gemma_lmm_random. (Note
+that the output files were left out of this initial release because they
+were very large.)
+
+
+4. BSLMM in GEMMA
+
+The scripts and results are in the bslmm directory.
+
+    | Script                        | Description                                           | Directory
+    |-------------------------------+-------------------------------------------------------+--------------------------|
+    | 2017-07-17                    | All variants, non-permuted                            | all_vars                 |
+    | 2017-07-17_separate           | SNPs or PAVs alone                                    | snps, pavs               |
+    | 2017-07-17_random             | All variants, permuted                                | all_vars_random          |
+    | 2017-07-17_separate_random    | SNPs or PAVs alone, permuted, five "focal" phenotypes | snps_random, pavs_random |
+    | 2017-07-17_20_random          | All variants, permuted, all phenotypes                | all_vars_random          |
+    | 2017-07-17_20_separate_random | SNPs or PAVs alone, permuted, all phenotypes          | snps_random, pavs_random |
+
+The "_20_" scripts were run for a very small number of iterations, just
+to get the LMM null model PVE estimates, and originally sent their
+output to a different directory. We decided that running the full length
+chains would be too computationally intensive.
+
+Selected output files:
+    output_0.log: log file for first chain, contains LMM PVE estimate
+    output.hyp.merged.tsv: hyperparameters from all chains
+    output.param.marged.tsv: parameters (per-SNP stats) from all chains
+    stats.txt: collected PVE statistics
+
+
+5. Model selection on top variants
+
+The code for running model selection on the top 25 variants from the LMM
+association tests (see 3 above) is in
+model_selection/pve_phenotype_lm_2017-07-20_forward.sh. The R script
+used to actually do the model selection, and a file (output.stats.tsv)
+with the summarized output is also available for each phenotype.
+
+output.stats.tsv columns:
+    run                 "real" for the real data, random-* for each random phenotype
+    n_vars_start        step in the model (number of variants included)
+    r2                  adjusted R^2 of the model
+    r2_unadj            plain R^2 of the model
+    r2_resid            R^2 of running the last added variant on the residuals from a model that included all the other variants (reported in ms)
+    genomic_r2          mean adjusted R^2 of running models with other variants as the response instead of the phenotype
+    genomic_r2_unadj    same as above, but plain R^2
+    n_vars_final        number of variants included in the model, should be the same as n_vars_start
+    ranks_final         GWAS rank (e.g. 2 = 2nd most significant GWAS SNP) of the included variants
+    vars_final          IDs of the included variants
+    coefficients        model coefficients; first one is the intercept
+
+
+6. Population genetics
+
+See popgen/: includes batch script, python script for making input file,
+and tsv files with summary statistics for the entire genome and each
+replicon.
+
+
+
+FIGURES AND TABLES
+===================
+
+All code used to create figures and tables is in the figs_tables/
+directory, with subdirectories by figure or table number. Note that not
+all tables have code associated with them.
+
+Note that minor aesthetic modifications were made to many figures and
+tables after running the code.
